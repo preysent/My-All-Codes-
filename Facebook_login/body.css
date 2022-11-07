@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    flex-direction: column;
+    background-color:#f0f2f5; 
+}
+
+.img {
+    width: 30vw;
+}
+
+.login {
+    height: 50vh;
+    flex-direction: column;
+    border: none;
+    display: flex;
+    width: 40vw;
+    box-shadow: 0px 0px 10px rgb(112, 112, 112);
+    min-width: 230px;
+    min-height: 300px;
+  
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
+    font-size: 120%;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 65%;
+    width:100%;
+}
+.ip{
+    width: 95%;
+    height: 95%;
+    margin: 5px; 
+    
+    display:flex;
+    align-items: center;
+    padding: 6px;
+border-radius: 10px;
+justify-content: center;
+border: 1px solid #ccc;
+background-color: white;
+}
+.ip_type{
+    width: 90%;
+    height: 50%;   
+    font-size:large;
+    display:flex;
+    align-items: center;
+    border: none;
+    background-color: white;
+  
+  }
+button{
+    width: 95%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size:large;
+    background-color: #1877f2;
+    border-radius: 10px;
+}
