@@ -1,0 +1,1 @@
+printf("stack is empty is %d\n",ptr->size);
